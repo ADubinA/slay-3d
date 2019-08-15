@@ -11,7 +11,10 @@ public class hexGround : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        if (unit != null)
+        {
+            unit.transform.position = transform.position;
+        }
     }
 
     // Update is called once per frame
@@ -48,5 +51,9 @@ public class hexGround : MonoBehaviour
     public Vector2Int getIndex()
     {
         return index;
+    }
+    public void setUnit(hexableUnit unit)
+    {
+        this.unit = unit;
     }
 }

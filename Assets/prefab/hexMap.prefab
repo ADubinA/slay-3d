@@ -43,9 +43,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 737e160d08a88fc429f368e5f68e17b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 30
-  width: 30
+  height: 7
+  width: 7
   hexScale: 0.95
   hexPreFab: {fileID: 4986483627702520229, guid: 7c44b565f66c30e49b332b809f982e7c,
     type: 3}
-  generateProbability: 0.2
+  cityPreFab: {fileID: 6918124443522980329, guid: 63c981a158c9a7349997d307e977b391,
+    type: 3}
+  generateProbability: 0.8
+  playersList: []
